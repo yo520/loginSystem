@@ -1,0 +1,25 @@
+html
+{
+    font-family: seg;
+}
+.bg-jone
+{
+    background-image: url(../imges/2115.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card
+{
+    background-color: rgba(0, 0, 0, 0.402);
+}
+.link
+{
+    transition: all ease-in-out 0.2s;
+    color: rgb(113, 113, 245);
+}
+.link:hover
+{
+    text-decoration: underline;
+    color: blue;
+}

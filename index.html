@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You Sif's login System</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styel.css">
+</head>
+<body>
+<section class="bg-jone bg-body vh-100 d-flex align-items-center" id="LoginSec">
+<div class="container">
+  <div class="card shadow-lg text-center p-5 ">
+    <div class="container">
+      <div class="d-flex flex-column gap-3 text-white">
+        <span class="h1">Smart Login System</span>
+        <input class="form-control" type="email" id="LoginEinput" placeholder="Enter Your email">
+        <input class="form-control" type="password" id="LoginPinput" placeholder="Enter Your password">
+        <p id="AccError" class="d-none text-danger">email or password not correct</p>
+        <button class="btn w-100 btn-dark" id="loginBtn">Login</button>
+        <span>Don’t have an account?</span>
+        <samp class="link" id="signupLink"> Sign Up</samp>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<section class="bg-jone bg-body vh-100 d-flex align-items-center d-none " id="signupSec">
+<div class="container">
+  <div class="card shadow-lg text-center p-5 ">
+    <div class="container">
+      <div class="d-flex flex-column gap-3 text-white">
+        <span class="h1">Smart Login System</span>
+        <input class="form-control" type="text" id="SignNinput" placeholder="Enter Your name">
+        <input class="form-control" type="email" id="SignEinput" placeholder="Enter Your email">
+        <input class="form-control" type="password" id="SignPinput" placeholder="Enter Your password">
+        <button class="btn w-100 btn-dark" id="signInBtn">Sign in</button>
+        <div id="successMasg" class="text-success d-none">acc is created success</div>
+        <div id="warringMasg" class="text-warning d-none"></div>
+        <span>You have an account?</span>
+        <span class="link" id="signinLink"> Sign in</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<section class="bg-jone bg-body vh-100 d-flex align-items-center d-none " id="helloSec" >
+<div class="container">
+  <div class="card col-lg-6 m-auto shadow-lg text-center p-5 ">
+    <div class="container">
+      <div class="d-flex flex-column gap-3 text-white">
+        <div>
+          <p id="welcomID" class="h1">
+            
+          </p>
+          <button class="btn btn-info position-absolute bottom-0 end-0" id="logoutBtn">Logout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
